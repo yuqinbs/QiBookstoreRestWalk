@@ -1,0 +1,25 @@
+DELETE FROM book;
+ALTER TABLE book AUTO_INCREMENT = 1001;
+
+DELETE FROM category;
+ALTER TABLE category AUTO_INCREMENT = 1001;
+
+INSERT INTO `category` (`name`) VALUES ('Children'),('Food'),('Art'),('Education');
+
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('How to Save a Life: The Inside Story of Greys Anatomy', 'Lynette Rice', '', 1628, 0, TRUE, FALSE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Together: Memorable Meals, Made Easy', 'Jamie Oliver', '', 1320, 0, TRUE, FALSE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('One Hundred Reasons To Hope', 'Adam Larkum', '', 999, 0, TRUE, FALSE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('The Primrose Railway Children', 'Jacqueline Wilson', '', 649, 0, TRUE, FALSE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Big Panda and Tiny Dragon', 'James Norbury', '', 1299, 0, TRUE, FALSE, 1002);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Guinness World Records 2022', 'Guinness World Records', '', 1028, 0, TRUE, FALSE, 1002);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Happy Cooking', 'Candice Brown', '', 1760, 0, TRUE, FALSE, 1002);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Tom Kerridge Outdoor Cooking', 'Tom Kerridge', '', 1128, 0, TRUE, FALSE, 1002);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('The New Kingdom: Global bestselling author of River God', 'Wilbur Smith', '', 899, 0, TRUE, FALSE, 1003);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Orphans of the Storm', 'Celia Imrie', '', 628, 0, TRUE, FALSE, 1003);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Turn a Blind Eye', 'Jeffrey Archer', '', 1749, 0, TRUE, FALSE, 1003);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Over My Dead Body', 'Jeffrey Archer', '', 1199, 0, TRUE, FALSE, 1003);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('The Girl of Ink & Stars', 'Kiran Millwood Hargrave', '', 599, 0, TRUE, FALSE, 1004);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Oxford School Thesaurus', 'Mixed Media', '', 1628, 0, TRUE, FALSE, 1004);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Marvellous Medicine', 'Adam Kay', '', 749, 0, TRUE, FALSE, 1004);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('The Disney Book of Maps', 'Hardback', '', 1099, 0, TRUE, FALSE, 1004);
+
