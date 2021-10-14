@@ -52,7 +52,7 @@ public class Book {
 		return isPublic;
 	}
 
-	public boolean isFeatured() {
+	public boolean getIsFeatured() {
 		return isFeatured;
 	}
 
@@ -70,8 +70,8 @@ public class Book {
 				", price=" + price +
 				", rating=" + rating +
 				", getIsPublic=" + isPublic +
-				", isFeatured=" + isFeatured +
 				", categoryId=" + categoryId +
+				", isFeatured=" + isFeatured +
 				'}';
 	}
 }
